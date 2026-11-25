@@ -24,7 +24,8 @@ The program is deterministic on purpose: the grader runs it twice and
 both runs must produce the same entry. It reads nothing from the
 network, the environment (beyond the output directory the grader
 itself sets), or the git history -- the pitch lives in this file, and
-this file alone.
+this file alone. Note the em dash in the pitch is one Unicode
+character (U+2014), so the 184-character count counts it once.
 """
 
 from __future__ import annotations
